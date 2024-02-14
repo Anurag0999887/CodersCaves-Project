@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <style>
+        *{
+            margin : 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 33);
+        }
+        nav ul{
+                display: flex;
+                justify-content: center;
+        }
+        nav ul li{
+                    list-style: none;
+                   margin: 0 23px ;
+    }
+    nav ul li a{
+                    text-decoration: none;
+                    color: white;
+    }
+    nav ul li a:hover{
+                    color : rgb(153,153,226);
+                    font-size: 1.2rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    .firstsection > div {
+        padding-left: 2rem;
+    }
+    .leftsection{
+        font-size: 3rem;
+        margin : 30px 0;
+
+    }
+    .rightsection img{
+        width: 80%;
+        height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    }
+    .purple{
+        color: rgb(170, 107, 228);
+    }
+    #element{
+        color: rgb(170, 107, 228);
+    }
+    .SecondSection{
+        max-width: 88vw;
+        margin: auto;
+        height: 80vh;
+    }
+    main hr{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0;
+        padding: 2px;
+    }
+    .SecondSection h1{
+        font-size: 1.5rem;
+    }
+    .gray{
+        color: gray;
+    }
+    .box {
+        background-color: white;
+        width: 80pvw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+    .SecondSection .vertical{
+        height : 93px;
+        width : 1px;
+        background-color: white;
+        margin: 0 130px;
+    }
+    .image-top{
+   width: 23px;
+height : 23px;
+   position: relative;
+   top :-25px;
+        margin-left: 2rem;
+    }
+    .vertical-title{
+        position: relative;
+    top: 2.5cm;
+    width: 150px;
+    }
+    .vertical-desc{
+        position: relative;
+    top: 115px;
+    color: gray;
+    width: 6cm;
+    font-size: 15px;
+    }
+    footer{
+        margin: 50px 50px;
+    background-color: #040724;
+    height: 300px;
+    }
+    .footer{
+     
+        display: flex;
+    justify-content: space-evenly;
+    }
+   .footer ul{
+    list-style: none;
+   }
+   .footer > div{
+    width : 123px;
+   }
+   footer .tex{
+color: gray;
+align-items: center;
+justify-content: center;
+text-align: center;
+padding: 1cm;
+   }
+   .leftsection .btn1, .btn2{
+    color: white;
+    background-color: #040724;
+    padding: 12px;
+    border: 2px solid white;
+    
+   }
+   .button{
+    display: flex;
+
+  justify-content: space-evenly;
+    padding: 1cm;
+    margin: 1cm;
+    
+   }
+   .Second12  :hover{
+    opacity: 75%;
+    font-size: 0.5cm;
+   }
+   .Third  :hover{
+    opacity: 75%;
+    font-size: 0.5cm;
+   }
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anurag Portfolio</div>
+           
+            <div class="right">
+                <ul> 
+                    <li> <a href="/" > Home</a></li>
+                  <li> <a href="/" > About</a></li>
+                   <li> <a href="/" > Project</a></li>
+                    <li> <a href="/" > Services</a></li>
+                   <li> <a href="/" > Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Anurag</span>
+                <div>I am a passionate</div>
+                <div>Web Developer</div> 
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn1"> Download Resume
+                        <button class="btn2"> Github Visit 
+                </div>
+                
+            </div>
+        
+            <div class="rightsection">
+               <img src="image/p1.png"
+                alt="">
+            </div>
+        </section>
+<hr>
+        <section class="SecondSection">
+            <span class="gray">What I done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <!-- <img  class="image-top" src="image/pngtree-web-developer-isometric-illustration-png-image_6067558.jpg" alt=""> -->
+                  <div class="vertical">
+                    <div class="vertical-title">
+                        C++/C Programmer </div>
+                        <div class="vertical-desc">
+                           I Started my first internship from 15 June 2023 to 15 Aug 
+                        2023 at internsflow company as a C++/C programmer and 
+                           Compeleted all the given tasks and recived Cartificate of Completition.
+                        </div>
+                  </div>
+                  <div class="vertical">
+                    <div class="vertical-title">
+                        Web Developer </div>
+                        <div class="vertical-desc">
+                            I Started new internship from 10 Aug 2023 to 9 Sept-2023 at Technohacks Edutech company as a Web Developer and 
+                            Compeleted all the given tasks and recived Cartificate of Completition.
+                            Now Currently work in coderscave as a Web Developer.
+                        </div>
+                  </div>
+                  <div class="vertical">
+                    <div class="vertical-title">
+                       Java Programmer </div>
+                        <div class="vertical-desc">
+                        I Started new internship for 1 month at CipherByte Technologies company and after CipherByte Technologies internship work in nexabyte-org company as a Java Progammer and 
+                            Compeleted all the given tasks and recived Cartificate of Completition.
+                        </div>
+                  </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first">Anurag Developer Portfolio</div>
+            <div class="Second12">
+                <ul>
+                 <li><a href="https://www.linkedin.com/in/anurag-lodhi-1b1a881b1?utm_source=share&utm_campaign=shar
+                        e_via&utm_content=profile&utm_medium=android_app" style="color: white; text-decoration: none;{
+                            opacity: 50%;
+                        }" >Linkdin</a></li>
+                    
+                </ul>
+            </div>
+            <div class="Third">
+                <ul>
+                  <li><a href="https://github.com/mattboldt/typed.js" style="color: white; text-decoration: none;">Github</a></li>
+                   </ul>
+            </div>
+            <div class="Third">
+                <ul>
+                 <li><a href="https://www.instagram.com/its_anurag__unstable?igsh=OGQ5ZDc2ODk2ZA==" style="color: white; text-decoration: none;">Instagram</a></li>
+                  </ul>
+            </div>
+        </div>
+        <div class="tex">
+            www.AnuragPortfolio.com |All right Reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed= new  Typed('#element',{
+            strings : ['Web Developer','Back-End Developer','Video Editor','Writer'],
+            typeSpeed:50,
+        });
+    </script>
+</body>
+</html>
